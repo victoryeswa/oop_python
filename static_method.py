@@ -11,4 +11,4 @@ class Math:
     def pr():
         print('run')
 
-print(Math.add10(5))
+Math.pr()
