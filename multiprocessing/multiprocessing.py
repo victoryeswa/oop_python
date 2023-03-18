@@ -1,5 +1,5 @@
 import time
-
+#multiprocessing - significantly speeds up a program
 start = time.perf_counter()
 
 def do_something():
