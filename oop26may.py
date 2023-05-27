@@ -10,7 +10,7 @@ class Polygon:
     def draw(self):
         for i in range(self, sides):
             turtle.forward(100)
-            turtle.right(90)
+            turtle.right(180-self.angle)
         turtle.done()
 
 square = Polygon(4, 'Square')
@@ -20,4 +20,6 @@ print(square.sides)
 print(square.name)
 
 print(pentagon.sides)
+print(pentagon.name)
 
+square.draw()
